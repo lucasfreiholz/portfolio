@@ -46,3 +46,11 @@ h1 { font-weight: var(--weight-light); }
 }
 
 h1 { color: var(--Couleur-Principale); }
+
+
+/* //////////////////////////////////////// */
+/* // COULEUR ///////////////////////////// */
+
+section {min-height: 100vh; }
+
+.vignette { max-width: 256px; }
