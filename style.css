@@ -42,15 +42,86 @@ h1 { font-weight: var(--weight-light); }
 /* // COULEUR ///////////////////////////// */
 
 :root{
-	--Couleur-Principale: #FF8800;
+	--Couleur-Principale: #bd0f55;
 }
 
 h1 { color: var(--Couleur-Principale); }
+a { color: var(--Couleur-Principale); }
 
 
 /* //////////////////////////////////////// */
-/* // COULEUR ///////////////////////////// */
+/* // COULEUR 2 ///////////////////////////// */
 
 section {min-height: 100vh; }
 
 .vignette { max-width: 256px; }
+
+
+
+
+/* //////////////////////////////////////// */
+/* // DECO //////////////////////// */
+
+
+a {
+	text-decoration: none;
+	text-decoration: underline;
+	text-underline-offset: 0.3em;
+	text-decoration-thickness: 1px;
+	text-decoration-style: dotted;
+
+}
+
+section {
+	border-top: 3px solid var(--Couleur-Principale);
+}
+
+
+
+
+/* //////////////////////////////////////// */
+/* // MISE EN PAGE //////////////////////// */
+
+:root { --spacer: 1rem;}
+
+.row { display: flex; gap: var(--spacer); }
+.row > * { flex: 1; }
+
+body{ padding: var(--spacer);}
+
+header { min-height: 50vh; }
+
+section {
+	min-height: 100vh; 
+	margin-top: calc( var(--spacer) * 3 );
+}
+
+
+section {
+	display: flex;
+	gap: var(--spacer);
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+section > h2 { flex: 0 0 100%; }
+section > a { flex: 0 1 256px; }
+
+section a.vignette {
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/* .vignette { max-width: 256px; } */
+
+
+/* //////////////////////////////////////// */
+/* // UI ////////////////////////////////// */
+
+html, body {
+	scroll-behavior: smooth;
+}
+
+
+
