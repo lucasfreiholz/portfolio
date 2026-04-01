@@ -123,5 +123,20 @@ html, body {
 	scroll-behavior: smooth;
 }
 
+nav {
+	position: sticky;
+	top: 0;
+	background: #fff;
+	padding: 0.5rem 0;
+	z-index: 99;
+}
+
+h2 {
+	position: sticky;
+	top: 2rem;
+	background: #fff;
+	padding: 0.5rem 0;
+
+}
 
 
