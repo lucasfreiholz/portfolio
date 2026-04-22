@@ -89,7 +89,9 @@ section {
 
 body{ padding: var(--spacer);}
 
-header { min-height: 50vh; }
+/* header { min-height: 50vh; }*/
+
+nav { margin-bottom: 50vh;}
 
 section {
 	min-height: 100vh; 
