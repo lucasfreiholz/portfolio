@@ -42,7 +42,7 @@ h1 { font-weight: var(--weight-light); }
 /* // COULEUR ///////////////////////////// */
 
 :root{
-	--Couleur-Principale: #bd0f55;
+	--Couleur-Principale: #031cff;
 }
 
 h1 { color: var(--Couleur-Principale); }
