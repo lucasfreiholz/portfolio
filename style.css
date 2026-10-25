@@ -9,20 +9,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 h1{
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: brunson;
 }
 
 body {
 	font-family: "Public Sans", sans-serif;
-	font-weight: var(--weight-bold);
+	font-weight: 0 ;
 }
 
+h2 {
+	font-family: brunson;
+	font-size: 60px;
+	font-weight: 100;
+	color: white;
+	
+	
 
+}
 
 /* Font Size  - - - - - - - - - - - - - - - */
 
 :root{
-	--size-XXL: 64px;
+	--size-XXL: 83px;
 	--size-XL: 32px;
 	--size-L: 20px;
 	--size-M: 16px;
@@ -49,7 +57,7 @@ h1 { font-weight: var(--weight-light); }
 /* // COULEUR ///////////////////////////// */
 
 :root{
-	--Couleur-Principale: black;
+	--Couleur-Principale: #0055ff;
 }
 
 h1 { color: var(--Couleur-Principale); }
@@ -59,7 +67,7 @@ a { color: var(--Couleur-Principale); }
 /* //////////////////////////////////////// */
 /* // COULEUR 2 ///////////////////////////// */
 
-section {min-height: 100vh; }
+section {min-height: 1000vh; }
 
 .vignette { max-width: 256px; }
 
@@ -70,7 +78,7 @@ section {min-height: 100vh; }
 /* // DECO //////////////////////// */
 
 body {
-	background-image: radial-gradient(circle, rgba(0,0,0,0.015) 1px, transparent 1px);
+	background-image: radial-gradient(circle, rgba(0,0,0,0.015) 0.5px, transparent 1px);
 	background-size: 4px 4px;
 }
 
@@ -144,9 +152,10 @@ nav {
 }
 
 h2 {
+	
 	position: sticky;
 	top: 2rem;
-	background: white;
+	background: #0055ff;
 	padding: 01rem 0;
 
 }
