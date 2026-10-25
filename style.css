@@ -14,7 +14,7 @@ h1{
 
 body {
 	font-family: "Public Sans", sans-serif;
-	font-weight: 0 ;
+	font-weight: 50% ;
 }
 
 h2 {
@@ -22,9 +22,11 @@ h2 {
 	font-size: 60px;
 	font-weight: 100;
 	color: white;
-	
-	
+}
 
+h3{
+	font-family: "Public Sans", sans-serif;
+	font-size: 30px;
 }
 
 /* Font Size  - - - - - - - - - - - - - - - */
@@ -130,7 +132,7 @@ section > a { flex: 0 1 256px; }
 section a.vignette {
 	aspect-ratio: 1/1;
 	object-fit: cover; 
-	border-radius: 50%;
+	border-radius: 20%;
 }
 
 
@@ -156,8 +158,14 @@ h2 {
 	position: sticky;
 	top: 2rem;
 	background: #0055ff;
-	padding: 01rem 0;
+	padding: 1rem ;
+	padding-left: 10px;
 
+}
+
+
+h3{
+	padding-top: 100px;
 }
 
 a:hover { color: var(--couleur-accent); }
@@ -173,5 +181,15 @@ section a.vignette:hover {
 
 section a.vignette {
 	transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+
+
 }
 
+
+h4 {
+	color:#0055ff;
+	font-size: 40px;
+	padding-top: 220px ;
+	
+
+}
